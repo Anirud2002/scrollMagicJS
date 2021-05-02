@@ -41,6 +41,7 @@ const textTweens = new TimelineLite();
 const flightTween = new TimelineLite();
 const textTween = new TimelineLite();
 const textTweenStha = new TimelineLite();
+
 flightTween.add(
     TweenLite.to('.paper-plane', 1, {
         bezier: flightPath,
